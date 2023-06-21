@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int  temp, i, j, c = 50;
+	long int  temp, i, j, c = 48;
 
 	printf("1, 2, ");
 	for (i = 2, j = 1; c > 0; c--)
