@@ -19,3 +19,15 @@ void print_natural(void)
 	}
 	printf("%d\n", j);
 }
+
+/**
+ * main - prints num of 0 - 1024 numbers
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	print_natural();
+	return (0);
+}
