@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (i == 100)
 		{
-			printf("%d\n", i);
+			printf("Buzz\n");
 			continue;
 		}
 		if ((i % 3 == 0) && (i % 5 == 0))
