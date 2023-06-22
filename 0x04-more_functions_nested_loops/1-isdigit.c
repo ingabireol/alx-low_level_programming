@@ -3,7 +3,7 @@
 /**
  * _isdigit - checks if c is an integer
  * @c: interger to be checked
- * Return: 1 if c is digit 
+ * Return: 1 if c is digit
  * otherwise 0
  */
 
