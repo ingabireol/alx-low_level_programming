@@ -10,7 +10,7 @@ int main(void)
 {
 	double  temp, i, j, c = 96;
 
-	printf("1, 2\n");
+	printf("1, 2, ");
 	for (i = 2, j = 1; c > 0; c--)
 	{
 		if (c == 1)
