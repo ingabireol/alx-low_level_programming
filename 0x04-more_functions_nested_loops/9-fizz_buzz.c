@@ -4,7 +4,7 @@
  * main - prints fizz for multiples of three and buzz
  * for multiples of five and fizzbuzz of Multiples
  * of both three and five
- * Return: Always 1;
+ * Return: Always 0;
  */
 
 int main(void)
@@ -13,6 +13,11 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
+		if (i == 100)
+		{
+			printf("%d\n", i);
+			continue;
+		}
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("FizzBuzz ");
@@ -29,6 +34,5 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	putchar('\n');
 	return (0);
 }
