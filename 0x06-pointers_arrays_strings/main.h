@@ -9,4 +9,5 @@ char *string_toupper(char *c);
 char *cap_string(char *s);
 char *leet(char *s);
 void print_number(int n);
+int _putchar(char c);
 #endif /* MAIN_H */
