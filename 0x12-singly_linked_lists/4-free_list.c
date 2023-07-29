@@ -10,8 +10,7 @@ void free_list(list_t *head)
 {
 	list_t *current_node, *next_node;
 
-	
-	if(head)
+	if (head)
 	{
 		current_node = head;
 		next_node = head->next;
