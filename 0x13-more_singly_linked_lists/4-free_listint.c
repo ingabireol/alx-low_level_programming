@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * free_list - frees a list_t list.
+ * free_listint - frees a listint_t list.
  * @head: pointer to the list.
  **/
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
-	list_t *actual_node;
-	list_t *next_node;
+	listint_t *actual_node;
+	listint_t *next_node;
 
 	if (head)
 	{
@@ -15,12 +15,10 @@ void free_list(list_t *head)
 		next_node = head->next;
 		while (next_node)
 		{
-			free(actual_node->str);
 			free(actual_node);
 			actual_node = next_node;
 			next_node = next_node->next;
 		}
-		free(actual_node->str);
 		free(actual_node);
 	}
 }
